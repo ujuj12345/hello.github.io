@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.profile-picture img {
+    width: 207px;
+    height: 299px;
+    border-radius: 5px;
+}
+
+.contact-info {
+    flex: 1 1 auto;
+    padding-left: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+    font-family: 'Arial Black', sans-serif;
+}
+
+p {
+    margin: 5px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Arial Black', sans-serif;
+}
+
+ul li {
+    padding-left: 20px;
+    position: relative;
+}
+
+ul li:before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+}
